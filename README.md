@@ -1,2 +1,2 @@
-# Network_Host_Scanner
+# Network Host Scanner
 network host scanner for scanning Ip address in netowrk
