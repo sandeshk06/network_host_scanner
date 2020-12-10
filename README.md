@@ -46,3 +46,5 @@ Python based network scanner to scan network [IPv4] and gives list of current Ho
 - docker build -t mynetwork_scan  .
 
 - docker run --rm -v data:/opt/myapp/  mynetwork_scan   -n [IP] -s [SUBNET]
+
+- csv file report  available in **/var/lib/docker/volumes/data/_data**
