@@ -27,8 +27,8 @@ def prepare_csv(row_list):
             writer.writerow(["IP", "STATUS"])
             writer.writerows(row_list)
         
-        print("{}[+] CSV File prepaired :{} {}".format(b.OKMSG,CSV_NAME,b.END)) 
-        logger.info("CSV File prepaired :{}".format(CSV_NAME)) 
+        print("{}[+] CSV File created :{} {}".format(b.OKMSG,CSV_NAME,b.END)) 
+        logger.info("CSV File created :{}".format(CSV_NAME)) 
 
     except Exception as e:
         print("{}[-] Problem while generating CSV list{}".format(b.ERRMSG,b.END))
