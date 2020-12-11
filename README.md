@@ -2,13 +2,13 @@
 network host scanner for scanning Host[Ipv4] address in netowrk
 
 
-Python based network scanner to scan network [IPv4] and gives list of current Hosts [available/free] present in network.
+Python based network scanner to scan network [IPv4] and gives list of current Hosts [available[free]/allocated[up]] present in network.
 
 
 
 **What network scanner does ?**
 
-- Preforms scan on given network and mark status as [free/down].
+- Preforms scan on given network and mark status as [free/down| up/allocated]
 
 - Validates IP given address
 
