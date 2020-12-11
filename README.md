@@ -30,9 +30,9 @@ Python based network scanner to scan network [IPv4] and gives list of current Ho
 
 - cd network_host_scanner
  
-- python3 network_scnner.py -n [IP] -s [SUBNET]
+- python3 network_host_scan.py -n [IP] -s [SUBNET]
 
-  example: python3 network_scnner.py -n '192.168.2.0' -s '24'
+  example: python3 network_host_scan.py -n '192.168.2.0' -s '24'
 
 **Note:** -n [network] and -s[subnet] are compulasry for running network_scanner
 
@@ -43,8 +43,8 @@ Python based network scanner to scan network [IPv4] and gives list of current Ho
 
 - cd network_host_scanner
 
-- docker build -t mynetwork_scan  .
+- docker build -t network_host_scan  . 
 
-- docker run --rm -v data:/opt/myapp/  mynetwork_scan   -n [IP] -s [SUBNET]
+- docker run --rm -v data:/opt/myapp/  network_host_scan   -n [IP] -s [SUBNET]
 
 - csv file report  available in **/var/lib/docker/volumes/data/_data**
