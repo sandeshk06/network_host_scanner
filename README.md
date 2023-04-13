@@ -34,7 +34,7 @@ Python based network scanner to scan network [IPv4] and gives list of current Ho
 
   example: python3 network_host_scan.py -n '192.168.2.0' -s '24'
 
-**Note:** -n [network] and -s[subnet] are compulasry for running network_scanner
+**Note:** -n [network] and -s[subnet] are compulsary for running network_scanner
 
 
 **Using Docker Image:**
